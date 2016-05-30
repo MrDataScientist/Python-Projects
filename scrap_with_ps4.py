@@ -10,3 +10,4 @@ links = soup.find_all("a")
 
 for link in links:
 	print " href="  link.get("href"), link.text)
+g_data = soup.find_all("div")
